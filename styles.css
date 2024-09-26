@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/*.toolbar {
+  margin-bottom: 20px;
+}*/
+.toolbar {
+  margin-bottom: 20px;
+  display: flex; /* Use flexbox for layout */
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.input-field {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't affect total width */
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+.highlight {
+  background-color: #003366; /* Dark blue color */
+  color: white; /* Change text color for better contrast */
+}
+
+.toolbar i {
+  margin-left: 10px;
+  font-size: 24px; /* Adjust size as needed */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.toolbar i:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+button {
+  margin-left: 10px; /* Add some space between buttons */
+}
+
+/*
+button {
+  margin-right: 10px;
+}*/
+table {
+  width: 100%;
+  border-collapse: collapse; /* Keeps table borders from collapsing */
+  border: none; /* Remove table border */
+}
+
+th,
+td {
+  border: none; /* Remove cell borders */
+  padding: 8px;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+*/ th {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+th:hover {
+  background-color: #ddd;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tick-icon {
+  color: blue;
+  margin-right: 5px;
+  font-size: 16px;
+}
